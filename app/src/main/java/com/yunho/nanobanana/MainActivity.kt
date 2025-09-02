@@ -158,7 +158,7 @@ fun NanoBanana(modifier: Modifier = Modifier) {
 
                         Toast.makeText(
                             context,
-                            if (result) "이미지가 갤러리에 저장되었습니다!" else "❌ 이미지 저장 실패",
+                            if (result) "Image saved to gallery!" else "❌ Failed to save image",
                             Toast.LENGTH_SHORT
                         ).show()
                     }

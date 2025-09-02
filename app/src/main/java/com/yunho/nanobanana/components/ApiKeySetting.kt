@@ -45,7 +45,7 @@ fun ApiKeySetting(
             verticalArrangement = Arrangement.spacedBy(12.dp)
         ) {
             Text(
-                text = "🔑 API 키 설정",
+                text = "🔑 API Key Setting",
                 fontSize = 16.sp,
                 fontWeight = FontWeight.SemiBold,
                 color = MaterialTheme.colorScheme.onSecondaryContainer
@@ -56,7 +56,7 @@ fun ApiKeySetting(
                 onValueChange = { service.apiKey = it },
                 modifier = Modifier.fillMaxWidth(),
                 label = { Text("Google AI API Key") },
-                placeholder = { Text("API 키를 입력하세요") },
+                placeholder = { Text("Enter your API key") },
                 visualTransformation = PasswordVisualTransformation(),
                 keyboardOptions = KeyboardOptions(keyboardType = KeyboardType.Password),
                 singleLine = true
@@ -81,7 +81,7 @@ fun ApiKeySetting(
                         modifier = Modifier.size(16.dp)
                     )
                     Text(
-                        text = " 저장",
+                        text = " Save",
                         fontSize = 12.sp
                     )
                 }
