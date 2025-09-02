@@ -60,7 +60,7 @@ class NanoBananaService(
                 append("\"parts\":[")
                 append("{ \"text\": \"$prompt\" }")
 
-                imageBase64List?.forEach { imageBase64 ->
+                imageBase64List.forEach { imageBase64 ->
                     if (imageBase64.isNotEmpty()) {
                         append(", { \"inline_data\": { \"mime_type\": \"image/jpeg\", \"data\": \"$imageBase64\" } }")
                     }
@@ -132,9 +132,10 @@ class NanoBananaService(
 
     fun bitmapToBase64(bitmap: Bitmap): String {
         val outputStream = ByteArrayOutputStream()
-        val byteArray = outputStream.toByteArray()
 
         bitmap.compress(Bitmap.CompressFormat.JPEG, 90, outputStream)
+
+        val byteArray = outputStream.toByteArray()
 
         return Base64.encodeToString(byteArray, Base64.NO_WRAP)
     }
