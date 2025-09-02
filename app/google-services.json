@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "506606898542",
+    "project_id": "nano-banana-f2007",
+    "storage_bucket": "nano-banana-f2007.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:506606898542:android:f23f7e4e392eb1c588c57f",
+        "android_client_info": {
+          "package_name": "com.yunho.nanobanana"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDFGkDfTwsRTgJrpdQEbO4GnPz1xE8BiIg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
