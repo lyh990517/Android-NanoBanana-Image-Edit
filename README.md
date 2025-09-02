@@ -1,6 +1,10 @@
 # NanoBanana - AI Image Editor
 
 An Android app that uses Google's Gemini AI to transform and edit your images with creative prompts.
+<br>
+<img src="https://github.com/user-attachments/assets/fa7e4138-fc0c-48aa-b8cf-02e9756f6455" width="250"/>
+<img src="https://github.com/user-attachments/assets/97fa5bf1-c46d-4e6a-8da4-1ff7b98d07b3" width="250"/>
+<img src="https://github.com/user-attachments/assets/3b38d3fa-ca3e-4bd2-a431-954347e6f22d" width="250"/>
 
 ## Features
 
